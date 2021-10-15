@@ -28,3 +28,5 @@
 
 代码实现的巧妙之处 :
 Watcher 把自己设置到全局的一个指定位置,然后读取数据,因为读取了数据,所以会触发这个数据的 getter,在 getter 中就能得到当前正在读取数据的 watcher,并把这个 watcher 收集到 Dep 中
+
+![Image text](https://github.com/tucky18/study-data-reactive/blob/main/img/%E6%95%B0%E6%8D%AE%E5%93%8D%E5%BA%94%E5%BC%8F%E5%8E%9F%E7%90%86.png)
